@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author zhanglf
  * @Date 2022/5/15 7:17 上午
  */
-@RestController()
+@RestController
 @RequestMapping("/test")
 public class TestController {
     @GetMapping("hello")
@@ -17,6 +17,6 @@ public class TestController {
     }
     @GetMapping("test")
     public String test() {
-        return "this is test again";
+        return "hello azure devops";
     }
 }
